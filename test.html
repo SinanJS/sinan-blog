@@ -6,17 +6,15 @@
   </head>
   <body>
     <script type="text/javascript">
-
-    function foo (){
-       console.log(this.a);
+    var a = "world";
+    function foo() {
+      console.log(this.a);
     }
     var obj = {
-      a:"hello",
-      foo:foo
+      a:"hello"
     };
-    var bar = obj.foo;
-    var a = "world";
-    bar(); //"world"
+    foo.call(obj);//"hello"
+    foo() //undefined
     </script>
   </body>
 </html>

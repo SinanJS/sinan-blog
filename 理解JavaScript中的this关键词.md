@@ -93,3 +93,36 @@ $("#some-id").on('click',function () {
 });
 ```
 本例中的`this`就是被强制改变绑定到了触发事件的DOM元素上。
+## 显示绑定
+隐式绑定实际上就是在一个对象的内部包含一个指向函数的属性，并通过这个属性间接地引用属性，从而把`this`间接地绑定到这个对象上。
+我们可以使用`call`和`apply`两个函数进行显示绑定。它们的第一个参数是一个对象，它们会把这个对象绑定到`this`，接着在调用函数时指定这个`this`。
+```js
+var a = "world";
+function foo() {
+  console.log(this.a);
+}
+var obj = {
+  a:"hello"
+};
+foo.call(obj);//"hello"
+foo() //"world"
+```
+> 单纯的实现`this`绑定的功能的话，`call`和`apply`是一样的，它们的区别体现在别的参数中。
+
+思考下面的代码：
+```js
+function foo() {
+  console.log(this.a);
+}
+var obj = {
+  a:"hello"
+};
+function bar() {
+  foo.call(obj);
+}
+bar(); //"hello"
+setTimeout(bar,500);// "hello"
+bar.call(window); //"hello",硬绑定的bar不能再修改它的this
+```
+我们创建了函数`bar`，并且手动在它的内部调用`foo.call(obj)`，因此强制把`foo`的`this`绑定到`obj`，之后无论怎么调用函数`bar`，它总会在`obj`上调用`foo`，不会丢失，这种绑定方式被称为`硬绑定`.
+*---未完待续---*
