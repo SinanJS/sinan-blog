@@ -6,15 +6,45 @@
   </head>
   <body>
     <script type="text/javascript">
-    var a = "world";
-    function foo() {
-      console.log(this.a);
+    // var Person = function (name,age) {
+    //   this.name = name;
+    //   this.age = age;
+    // }
+
+    //
+    // var Worker = function (name,age,workerId) {
+    //   this.workerId= workerId;
+    //   Person.apply(this,arguments);
+    // }
+    // Worker.prototype = new Person(this.name,this.age);
+    // var worker = new Worker("张三",22,"521608");
+    // worker.sayAge();
+    var Person = function (name,age) {
+      this.name = name;
+      this.age = age;
+      this.sayAge = function () {
+          console.log("Age:"+this.age);
+      };
     }
-    var obj = {
-      a:"hello"
+    //定义到原型链上的方法
+    Person.prototype.sayName = function () {
+        console.log("Name:"+this.name);
     };
-    foo.call(obj);//"hello"
-    foo() //undefined
+    var Worker = function (name,age,workerId) {
+      this.workerId= workerId;
+      Person.apply(this,arguments);//这里没有继承父类prototype中的方法
+    }
+    Worker.prototype = new Person(this.name,this.age);
+
+    Worker.prototype.showId = function () {
+        console.log("ID:",this.workerId);
+    };
+
+    var worker = new Worker("张三",22,"521608");
+console.log(worker);
+    worker.sayAge();
+    worker.sayName();
+    worker.showId();
     </script>
   </body>
 </html>
