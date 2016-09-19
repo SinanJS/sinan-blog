@@ -1,50 +1,30 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <script type="text/javascript">
-    // var Person = function (name,age) {
-    //   this.name = name;
-    //   this.age = age;
-    // }
 
-    //
-    // var Worker = function (name,age,workerId) {
-    //   this.workerId= workerId;
-    //   Person.apply(this,arguments);
-    // }
-    // Worker.prototype = new Person(this.name,this.age);
-    // var worker = new Worker("张三",22,"521608");
-    // worker.sayAge();
-    var Person = function (name,age) {
-      this.name = name;
-      this.age = age;
-      this.sayAge = function () {
-          console.log("Age:"+this.age);
-      };
-    }
-    //定义到原型链上的方法
-    Person.prototype.sayName = function () {
-        console.log("Name:"+this.name);
-    };
-    var Worker = function (name,age,workerId) {
-      this.workerId= workerId;
-      Person.apply(this,arguments);//这里没有继承父类prototype中的方法
-    }
-    Worker.prototype = new Person(this.name,this.age);
+<head>
+    <meta charset="utf-8"> </head>
 
-    Worker.prototype.showId = function () {
-        console.log("ID:",this.workerId);
-    };
+<body>
+    <div class="box">
+        <button type="button" name="button" id="btn">click me</button>
+    </div>
+</body>
+<script>
+    document.querySelector('#btn').addEventListener('click', function () {
+        console.log("btn was clicked");
+    });
+    document.querySelector('.box').addEventListener('click', function () {
+        console.log("box was clicked");
+    });
+    document.querySelector('body').addEventListener('click', function () {
+        console.log("body was clicked");
+    });
+    document.addEventListener('click', function () {
+        console.log("document was clicked");
+    });
+    window.addEventListener('click', function () {
+        console.log("window was clicked");
+    });
+</script>
 
-    var worker = new Worker("张三",22,"521608");
-console.log(worker);
-    worker.sayAge();
-    worker.sayName();
-    worker.showId();
-    </script>
-  </body>
 </html>
