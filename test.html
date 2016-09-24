@@ -12,19 +12,19 @@
 <script>
     document.querySelector('#btn').addEventListener('click', function () {
         console.log("btn was clicked");
-    });
-    document.querySelector('.box').addEventListener('click', function () {
-        console.log("box was clicked");
-    });
+    },true);
     document.querySelector('body').addEventListener('click', function () {
         console.log("body was clicked");
-    });
+    },true);
     document.addEventListener('click', function () {
         console.log("document was clicked");
-    });
+    },true);
     window.addEventListener('click', function () {
         console.log("window was clicked");
-    });
+    },true);
+    document.querySelector('.box').addEventListener('click', function () {
+        console.log("box was clicked");
+    },true);
 </script>
 
 </html>

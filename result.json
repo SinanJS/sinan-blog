@@ -1,0 +1,500 @@
+{
+    "data": {
+        "article": {
+            "clickType": 2
+            , "ext": {
+                "articleId": 159
+                , "pcImageUrl": "http://imgcms.biyao.com/files//web/b330a412d20d4513975231a0e5aacffa.jpg ",
+                "title": "11111"
+                , "url": "http://news.biyao.com/pc/article/ac04da0105c247abbc260f6005601d77.html "
+            }
+            , "homeDesc": "111"
+        }
+        , "banners": [
+            {
+                "clickType": "1"
+                , "ext": {
+                    "suId": "1300515002140000001"
+                }
+                , "image": "http://imgcms.biyao.com/files//web / 81 bd197268e44ce2bfb1f6bed3445710.jpg "
+            }
+            , {
+                "clickType": "2"
+                , "ext": {
+                    "title": "链接页面名称"
+                    , "url": "http://www.biyao.com "
+                }
+                , "image": "http://imgcms.biyao.com/files//web/ed30b37a9c1f42b08e433991509760bf.jpg"
+            }
+            , {
+                "clickType": "3"
+                , "ext": {
+                    "supplierID": "130013"
+                }
+                , "image": "http://imgcms.biyao.com/files//web/ed7b743fb50c4249be5bdabc3de8cbaf.jpg "
+            }
+            , {
+                "clickType": "4"
+                , "ext": {
+                    "categoryID": "138"
+                }
+                , "image": "http://imgcms.biyao.com/files
+                    //web/3b1c4f741c5047918b8070621185532f.jpg"
+            }
+            , {
+                "clickType": "6"
+                , "ext": {}
+                , "image": "http://imgcms.biyao.com / files //web/89ae4df5be0041eba1d70e4660bdea2e.jpg"
+            }
+            , {
+                "clickType": "5"
+                , "ext": {}
+                , "image": "http://imgcms.biyao.com/files//web/da23d6936ae24cb785fcd439589e3f68.jpg"
+            }
+            , {
+                "clickType": "7"
+                , "ext": {}
+                , "image": "http://imgcms.biyao.com/files//web/d1a4272facf64ab0882691f3e48e7512.jpg"
+            }
+        ]
+        , "modules": [
+            {
+                "moduleInfo": {
+                    "categoryID": 138
+                    , "clickType": "4"
+                    , "manufacturers": "鞋子1"
+                    , "moduleBrand": "鞋子2"
+                    , "moduleImage": "http: //imgcms.biyao.com/files//web/29ac1a22ff01406ba1f1fe25c2a174d0.png",
+                        "moduleItems": [
+                            {
+                                "clickType": "1"
+                                , "ext": {
+                                    "itemName": "桑蚕丝长袖衬衫"
+                                    , "itemPrice": 299.0
+                                    , "salePoint": "棉桑蚕丝保留了真丝的透气性，舒适性"
+                                    , "suId": "1300830032000020000"
+                                }
+                                , "image": "http://img.biyao.com/files/temp/1b/1b887927313b55b0.jpg"
+                        }
+                            , {
+                                "clickType": "1"
+                                , "ext": {
+                                    "itemName": "聚酯纤维长袖衬衫"
+                                    , "itemPrice": 349.0
+                                    , "salePoint": "羊毛聚酯
+                                    纤维舒适衬衫 手感顺滑柔软 ",
+                                    "suId": "1300830047000000000"
+                                }
+                                , "image": "http://img.biyao.com/files/temp/db/db9a7e7f0fa50586.jpg"
+                        }
+                            , {
+                                "clickType": "1"
+                                , "ext": {
+                                    "itemName": "男士商务长袖衬衫"
+                                    , "itemPrice": 199.0
+                                    , "salePoint": "面料挺阔骨感强，3CM21针细致
+                                    工艺 ",
+                                    "suId": "1300830017000000150"
+                                }
+                                , "image": "http://img.biyao.com/files/temp/81/818a64026275ba54.jpg"
+                        }
+                            , {
+                                "clickType": "1"
+                                , "ext": {
+                                    "itemName": "车车"
+                                    , "itemPrice": 1.0
+                                    , "salePoint": "车车车车"
+                                    , "suId": "1300475049010100001"
+                                }
+                                , "image": "http://img.biyao.com / files / temp / 13 / 13 b3a5d7ec51ab19.jpg "
+                        }
+                    ]
+                    , "moduleTitle": "鞋子子"
+                    , "title": "鞋子子"
+                }
+                , "moduleType": "3"
+            }
+            , {
+                "moduleInfo": {
+                    "moduleItems": [
+                        {
+                            "clickType": "5"
+                            , "ext": {}
+                            , "image": "http: //imgcms.biyao.com/files//web/6e7e20861fea465b93a515610f5455b0.jpg"
+                        }
+                        , {
+                            "clickType": "6"
+                            , "ext": {}
+                            , "image": "http://imgcms.biyao.com/files//web/c722a60406884598b86cc415510e4abe.png"
+                        }
+                        , {
+                            "clickType": "7"
+                            , "ext": {}
+                            , "image": "http://imgcms.biyao.com/files//web/df36b9c0306d434ab75744216ad52673.png "
+                        }
+                        , {
+                            "clickType": "4"
+                            , "ext": {
+                                "categoryID": "1"
+                            }
+                            , "image": "http://imgcms.biyao.com/files
+                                //web/f6b06a8912e44464957d96fcd05c3800.png"
+                        }
+                    ]
+                    , "moduleTitle": "销量"
+                }
+                , "moduleType": "1"
+            }
+            , {
+                "moduleInfo": {
+                    "moduleItems": [
+                        {
+                            "clickType": "3"
+                            , "ext": {
+                                "supplierID": "130013"
+                            }
+                            , "image": "http://imgcms.biyao.com / files //web/6ba1fdd295ca49ffb8b74468500239e4.jpg"
+                        }
+                        , {
+                            "clickType": "3"
+                            , "ext": {
+                                "supplierID": "130022"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/b3cb8f2a65be4ea0b8286b224eb44c72.jpg"
+                        }
+                        , {
+                            "clickType": "3"
+                            , "ext": {
+                                "supplierID": "130066"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/596f920db2d84de1bd195aa1bf1e1312.jpg "
+                        }
+                        , {
+                            "clickType": "3"
+                            , "ext": {
+                                "supplierID": "130051"
+                            }
+                            , "image": "http://imgcms.biyao.com/files
+                                //web/a4615f430ce24b15b71111b7a7e95cae.jpg"
+                        }
+                        , {
+                            "clickType": "3"
+                            , "ext": {
+                                "supplierID": "130059"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/aa40f54cddc44a3eb382a889565655be.jpg"
+                        }
+                    ]
+                    , "moduleTitle": "李宁-M站测试转专用"
+                }
+                , "moduleType": "1"
+            }
+            , {
+                "moduleInfo": {
+                    "moduleItems": [
+                        {
+                            "clickType": "5"
+                            , "ext": {}
+                            , "image": "http: //imgcms.biyao.com/files//web/862f32909de44db6bacf0d22a9f4c6e8.jpg"
+                        }
+                        , {
+                            "clickType": "6"
+                            , "ext": {}
+                            , "image": "http://imgcms.biyao.com/files//web/422629989e1b4c9ca15210f36661da75.jpg"
+                        }
+                        , {
+                            "clickType": "7"
+                            , "ext": {}
+                            , "image": "http://imgcms.biyao.com/files//web/101bfe5b0fff4199971a9ddf96722113.jpg "
+                        }
+                    ]
+                    , "moduleTitle": "2"
+                }
+                , "moduleType": "2"
+            }
+            , {
+                "moduleInfo": {
+                    "moduleItems": [
+                        {
+                            "clickType": "1"
+                            , "ext": {
+                                "suId": "1300475036040000001"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/11fabf542d2d48989d1013dd7a673e8a.jpg "
+                        }
+                        , {
+                            "clickType": "1"
+                            , "ext": {
+                                "suId": "1300475048000100001"
+                            }
+                            , "image": "http://imgcms.biyao.com/files/ / web / 632 cab417b644dd6b2e23f53979098b0.png "
+                        }
+                        , {
+                            "clickType": "1"
+                            , "ext": {
+                                "suId": "1300475047000100001"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/9424c792331146d98d3295aed00e4cfe.png"
+                        }
+                        , {
+                            "clickType": "4"
+                            , "ext": {
+                                "categoryID": "138"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/adadbfbe9d13422fa14b3608b4d4c1ed.png "
+                        }
+                        , {
+                            "clickType": "1"
+                            , "ext": {
+                                "suId": "1300475047000100001"
+                            }
+                            , "image": "http://imgcms.biyao.com/files/ / web / 7 dc638cb68fe4d1ab9fe6390422ed790.jpg "
+                        }
+                        , {
+                            "clickType": "1"
+                            , "ext": {
+                                "suId": "1300475048000100001"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/5ba4174955d94fbe9693fbbae7518abc.jpg"
+                        }
+                    ]
+                    , "moduleTitle": "pc-1-9211"
+                }
+                , "moduleType": "1"
+            }
+            , {
+                "moduleInfo": {
+                    "moduleItems": [
+                        {
+                            "clickType": "1"
+                            , "ext": {
+                                "suId": "1300475048000100001"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/6f19c73e69f84e3dbbb3bef0601e4eac.jpg"
+                        }
+                        , {
+                            "clickType": "6"
+                            , "ext": {
+                                "title": "2"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/00ea6b8d9f00469bbb996dd56bc8dcac.jpg"
+                        }
+                        , {
+                            "clickType": "7"
+                            , "ext": {
+                                "title": "3"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/c1c49f3ce7ab4a3ea4c970fcf42294ea.jpg"
+                        }
+                    ]
+                    , "moduleTitle": "pc首页改版-2"
+                }
+                , "moduleType": "2"
+            }
+            , {
+                "moduleInfo": {
+                    "moduleItems": [
+                        {
+                            "clickType": "2"
+                            , "ext": {
+                                "title": "首页改版测试"
+                                , "url": "http://www.biyao.com"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/f6511d8ec1ab41778ad5d606759fa794.jpg "
+                        }
+                        , {
+                            "clickType": "3"
+                            , "ext": {
+                                "supplierID": "130045"
+                                , "title": "3"
+                            }
+                            , "image": "http://imgcms.biyao.com/files
+                                //web/d659b59d105140d7823b820f024cec7a.jpg"
+                        }
+                        , {
+                            "clickType": "4"
+                            , "ext": {
+                                "categoryID": "194"
+                                , "title": "2"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/013243173b63481bb21f47cedc59ccdc.jpg"
+                        }
+                        , {
+                            "clickType": "5"
+                            , "ext": {
+                                "title": "2"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/93fb8df80d1d461faeb84ef77250fe09.jpg"
+                        }
+                    ]
+                    , "moduleTitle": "pc首页改版-1"
+                }
+                , "moduleType": "1"
+            }
+            , {
+                "moduleInfo": {
+                    "categoryID": 194
+                    , "clickType": "4"
+                    , "manufacturers": "1"
+                    , "moduleBrand": "1"
+                    , "moduleImage": "http://imgcms.biyao.com/files//web / 31757602 fb7a40c58e6ef9d7cb67565f.jpg ",
+                    "moduleItems": [
+                        {
+                            "clickType": "1"
+                            , "ext": {
+                                "itemName": "桑蚕丝长袖衬衫"
+                                , "itemPrice": 299.0
+                                , "salePoint": "棉桑蚕丝保留了真丝的透气性，舒适性"
+                                , "suId": "1300830032000020000"
+                            }
+                            , "image": "http://img.biyao.com/files/temp/1b/1b887927313b55b0.jpg"
+                        }
+                        , {
+                            "clickType": "1"
+                            , "ext": {
+                                "itemName": "聚酯纤维长袖衬衫"
+                                , "itemPrice": 349.0
+                                , "salePoint": "羊毛聚酯纤维舒适
+                                衬衫 手感顺滑柔软 ",
+                                "suId": "1300830047000000000"
+                            }
+                            , "image": "http://img.biyao.com/files/temp/db/db9a7e7f0fa50586.jpg"
+                        }
+                        , {
+                            "clickType": "1"
+                            , "ext": {
+                                "itemName": "男士商务长袖衬衫"
+                                , "itemPrice": 199.0
+                                , "salePoint": "面料挺阔骨感强，3CM21针细致
+                                工艺 ",
+                                "suId": "1300830017000000150"
+                            }
+                            , "image": "http://img.biyao.com/files/temp/81/818a64026275ba54.jpg"
+                        }
+                        , {
+                            "clickType": "1"
+                            , "ext": {
+                                "itemName": "细条纹短袖衬衫"
+                                , "itemPrice": 179.0
+                                , "salePoint": "纯棉面料透气性好，吸汗，抗皱易打理"
+                                , "suId": "1300830040000000000"
+                            }
+                            , "image": "http: //img.biyao.com/files/temp/34/341129a6db8f34fb.jpg"
+                        }
+                    ]
+                    , "moduleTitle": "pc首页改版-3"
+                    , "title": "pc首页改版-3"
+                }
+                , "moduleType": "3"
+            }
+            , {
+                "moduleInfo": {
+                    "moduleItems": [
+                        {
+                            "clickType": "2"
+                            , "ext": {
+                                "title": "测试首页改版"
+                                , "url": "http://www.biyao.com"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/0fbe84d2e5a24a9e9ca5b93f58c028b4.jpg "
+                        }
+                        , {
+                            "clickType": "3"
+                            , "ext": {
+                                "supplierID": "130056"
+                            }
+                            , "image": "http://imgcms.biyao.com/files
+                                //web/4d54d4eecb684a489f5360ed91fa7f29.jpg"
+                        }
+                        , {
+                            "clickType": "4"
+                            , "ext": {
+                                "categoryID": "19"
+                                , "title": "中秋活动"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/46b5377eebae48eea051a158642cdc29.jpg"
+                        }
+                        , {
+                            "clickType": "5"
+                            , "ext": {
+                                "title": "22"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/32aa4ad1e6f8460c81acf1d1105f7ec2.jpg"
+                        }
+                    ]
+                    , "moduleTitle": "pc首页改版-4"
+                }
+                , "moduleType": "1"
+            }
+            , {
+                "moduleInfo": {
+                    "moduleItems": [
+                        {
+                            "clickType": "5"
+                            , "ext": {
+                                "title": "LN-模版22222"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/b69b71642eb84d10ab374eaa2979af04.jpg"
+                        }
+                        , {
+                            "clickType": "6"
+                            , "ext": {
+                                "title": "LN ---月排行榜"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/ebdc33dcda68485eb19efdb47ce4eb2b.jpg "
+                        }
+                        , {
+                            "clickType": "7"
+                            , "ext": {
+                                "title": "54654"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/91e560cd483c4a87b6de0cf822c99ee5.jpg "
+                        }
+                    ]
+                    , "moduleTitle": "pc首页改版-5"
+                }
+                , "moduleType": "2"
+            }
+            , {
+                "moduleInfo": {
+                    "moduleItems": [
+                        {
+                            "clickType": "3"
+                            , "ext": {
+                                "supplierID": "130013"
+                                , "title": "呵呵呵呵"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/2f654cb6c73e4731bfbdc57e317e64b4.jpg "
+                        }
+                        , {
+                            "clickType": "4"
+                            , "ext": {
+                                "categoryID": "194"
+                                , "title": "月销量"
+                            }
+                            , "image": "http://imgcms.biyao.com/files
+                                //web/fac2269a176240eda95730cde4fcfd0b.jpg"
+                        }
+                        , {
+                            "clickType": "5"
+                            , "ext": {
+                                "title": "月销量"
+                            }
+                            , "image": "http://imgcms.biyao.com / files //web/4455f0f842974db997a557e77514c4ef.jpg"
+                        }
+                        , {
+                            "clickType": "6"
+                            , "ext": {
+                                "title": "新品"
+                            }
+                            , "image": "http://imgcms.biyao.com/files//web/52e6263078a54df1b110d5d18a4ef8dd.jpg"
+                        }
+                    ]
+                    , "moduleTitle": "pc首页改版-6"
+                }
+                , "moduleType": "1"
+            }
+        ]
+    }
+    , "success": 1
+}
