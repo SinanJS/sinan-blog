@@ -10,21 +10,49 @@
     </div>
 </body>
 <script>
-
-document.querySelector('.box').addEventListener('click',function (event) {
-    switch (event.target.id) {
-      case "btn":
-        console.log("btn was clicked");
-        break;
-      case "btn-2":
-        console.log("btn-2 was clicked");
-        break;
-      default:
-        console.log("box was clicked");
-        break;
-    }
+function run() {
+  var p = new Promise(function(resolve, reject){
+      //做一些异步操作
+      setTimeout(function(){
+          console.log('执行完成');
+          resolve('随便什么数据');
+      }, 2000);
+  });
+  return p;
+}
+function run2() {
+  var p = new Promise(function(resolve, reject){
+      //做一些异步操作
+      setTimeout(function(){
+          console.log('执行完成2');
+          resolve('随便什么数据2');
+      }, 2000);
+  });
+  return p;
+}
+function run3() {
+  var p = new Promise(function(resolve, reject){
+      //做一些异步操作
+      setTimeout(function(){
+          console.log('执行完成3');
+          resolve('随便什么数据3');
+      }, 2000);
+  });
+  return p;
+}
+run();
+run().then(function (data) {
+  console.log(data);
+  return run2();
+})
+.then(function (data) {
+  console.log(data);
+  return run3();
+})
+.then(function (data) {
+   console.log(data);
 });
-$(".box").append("<button id='btn-2'>btn-2</button>");
+
 </script>
 
 </html>
